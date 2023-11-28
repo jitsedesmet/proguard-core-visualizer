@@ -1,0 +1,22 @@
+name: Hello world
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    branches: [main]
+    types: [opened]
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Hello world!'
+            })
