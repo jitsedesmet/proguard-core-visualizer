@@ -33,6 +33,11 @@ kotlin {
                 implementation("com.github.Guardsquare.proguard-core:proguard-core:master-SNAPSHOT")
                 implementation(libs.proguard.core.android)
                 implementation(libs.proguard.assembler)
+
+
+                implementation(kotlin("test"))
+                implementation(kotlin("test-common"))
+                implementation(kotlin("test-annotations-common"))
             }
         }
     }
