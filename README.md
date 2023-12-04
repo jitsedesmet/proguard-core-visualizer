@@ -70,6 +70,7 @@ Contributions, issues and feature requests are welcome.
 Feel free to check the [issues](https://github.com/Mouwrice/proguard-core-visualizer/issues) page and the [contributing
 guide](CONTRIBUTING.md) if you would like to contribute.
 
+
 ## 📝 License
 
 Copyright (c) 2023 [Guardsquare NV](https://www.guardsquare.com/).
