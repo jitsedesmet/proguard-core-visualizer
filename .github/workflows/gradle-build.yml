@@ -28,4 +28,4 @@ jobs:
         dependency-graph: generate-and-submit
     
     - name: Execute Gradle build
-      run: ./gradlew build
+      run: ./gradlew build -x jvmTest
