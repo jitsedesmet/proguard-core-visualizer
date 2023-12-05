@@ -40,6 +40,7 @@ Works on both Intel and Apple silicon machines.
 
 If you have never heard of ProGuard then this tool might not be for you 😃
 
+
 If you want to see what evaluating instructions looks like, we got your back.
 The visualizer provides a visual representation of the evaluations made by the [partial evaluator](https://guardsquare.github.io/proguard-core/partialevaluator.html) from ProGuard Core.
 It does this through the [JsonPrinter API](https://github.com/Guardsquare/proguard-core/blob/master/base/src/main/java/proguard/evaluation/util/jsonprinter/JsonPrinter.java)
