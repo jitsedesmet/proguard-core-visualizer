@@ -9,6 +9,7 @@
 </p>
 
 
+
 <h4 align="center">A desktop application to visualize evaluations from <a href="https://github.com/Guardsquare/proguard-core"> ProGuardCORE</a></h4>
 
 > [!IMPORTANT]
